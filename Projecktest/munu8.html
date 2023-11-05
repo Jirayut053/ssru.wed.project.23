@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Webtst.css" />
+    <title>เกี่ยวกับฉัน</title>
+  </head>
+  <body style="background-color: rgb(255, 255, 255)">
+    <!-- สร้างเมนู -->
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light " style="background-color: #FDD8CF;">
+      <div class="container">
+        <a href="menufostudent.html" class="navbar-brand">
+          <img src="img/logo.png" height="80" />
+        </a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar1"
+        >
+          <span class="navbar-toggler-icon">.</span>
+        </button>
+        <div id="navbar1" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="menuforstudent.html" class="nav-link">หน้าหลัก</a>
+            </li>
+            <li class="nav-item">
+              <a href="menufood.html" class="nav-link">เมนูอาหาร</a>
+            </li>
+            <li class="nav-item">
+              <a href="kitchen.html" class="nav-link">เครื่องครัวจำเป็น</a>
+            </li>
+            <li class="nav-item">
+              <a href="aboutme.html" class="nav-link">เกี่ยวกับฉัน</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="modal"
+                data-bs-target="#myModal"
+                >ติดต่อฉัน</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="card text-bg-dark">
+        <img style="border-style: none; padding: 30px" 
+        src="img/munu8.jpg" alt="ขนมปังชุบไข่" width="1000" height="600">
+        <div class="card-body">
+          <h1 class="card-title">ขนมปังชุบไข่</h1>
+          <h2 class="card-title">ส่วนผสม</h2>
+          <h2><li class="card-text text-body-white">ขนมปังปอนด์ (เลือกยี่ห้อได้ตามชอบ)</li></h2>
+          <h2><li class="card-text text-body-white">เนย</li></h2>
+          <h2><li class="card-text text-body-white">ไข่ไก่</li></h2>
+          <h2><li class="card-text text-body-white">กล้วยหอม & นูเทลา</li></h2>
+          <h2><li class="card-text text-body-white">แยมส้ม & ลูกเกด & อัลมอนด์</li></h2>
+          <h2><li class="card-text text-body-white">หมูหยอง & พริกเผา</li></h2>
+          <h2><li class="card-text text-body-white">โบโลน่า & ชีส</li></h2>
+          <h2 class="card-title">วิธีทำ</h2>
+          <h3 class="card-title">
+            1.หั่นแบ่งครึ่งขนมปัง<br>
+            2.หั่นแบ่งครึ่งโบโลน่า และชีสแผ่น<br>
+            3.หั่นกล้วยหอมเป็นแว่นๆ ตามชอบ<br>
+            4.ตอกไข่ไก่ลงในชามผสม (เลือกชามที่มีขนาดใหญ่กว่าขนมปัง) จากนั้นตีไข้ให้เข้ากัน ปรุงรสด้วยน้ำตาลและเกลือ<br>
+            5.ตั้งกระทะใส่เนย จากนั้นนำขนมปังลงไปชุบกับไข่ไก่ แล้วนำใส่กระทะได้เลย<br>ฃ
+            6.เมื่อไข่เริ่มสุกดี พลิกด้านขนมปัง จากนั้นใส่ไส้ที่ต้องการ ลงบนขนมปัง 1 ด้าน แล้วนำขนมปังอีกแผ่นมาประกบ เสร็จเรียบร้อย<br>
+          </h3>
+          <a href="menufostudent.html" class="btn btn-primary">กลับหน้าแรก</a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center p-5 " style="background-color: #FDD8CF;">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>Copyright &copy; นาย จิรายุส มณีจันสุข 64122250053</p>
+            <p>รหัส 64122250053</p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--ช่องทางติดต่อ-->>
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">ติดต่อฉัน</h5>
+            <button class="btn-close" data-bs-dismiss="modal">.</button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label>อีเมล</label>
+                <input
+                  type="email"
+                  placeholder="ป้อนอีเมลของคุณ"
+                  class="form-control"
+                />
+              </div>
+              <div class="form-group">
+                <label>หัวข้อ</label>
+                <input
+                  type="text"
+                  placeholder="เสนอหัวข้องานของคุณ"
+                  class="form-control"
+                />
+              </div>
+              <div class="form-group">
+                <label>รายละเอียด</label>
+                <textarea
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="form-control"
+                ></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" data-bs-dismiss="modal">
+              ยกเลิก
+            </button>
+            <button class="btn btn-success">ส่งข้อมูล</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

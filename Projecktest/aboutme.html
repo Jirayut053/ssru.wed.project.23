@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>เกี่ยวกับฉัน</title>
+  </head>
+  <body style="background-color: rgb(246, 239, 235)">
+    <!-- สร้างเมนู -->
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light " style="background-color: #FDD8CF;">
+      <div class="container">
+        <a href="menufostudent.html" class="navbar-brand">
+          <img src="img/logo.png" height="80" />
+        </a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar1"
+        >
+          <span class="navbar-toggler-icon">.</span>
+        </button>
+        <div id="navbar1" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="menufostudent.html" class="nav-link">หน้าหลัก</a>
+            </li>
+            <li class="nav-item">
+              <a href="menufood.html" class="nav-link">เมนูอาหาร</a>
+            </li>
+            <li class="nav-item">
+              <a href="kitchen.html" class="nav-link">เครื่องครัวจำเป็น</a>
+            </li>
+            <li class="nav-item">
+              <a href="aboutme.html" class="nav-link">เกี่ยวกับฉัน</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="modal"
+                data-bs-target="#myModal"
+                >ติดต่อฉัน</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div style="border-style: none; padding: 100px" >
+      <center>
+      <div class="mainbox_content">
+        <div class="box_content">
+          <img
+            class="imgpf_content"
+            src="img/photo.png"
+            style="width: 200px; height: 200px"
+          />
+          <div class="text_content">ประวัติส่วนตัว</div>
+          <div>ชื่อ จิรายุส</div>
+          <div>นามสกุล มณีจันสุข</div>
+          <div>รหัสนักศึกษา 64122250053</div>
+        </div>
+        <div class="box_content">
+          <img
+            style="width: 600px; height: 300px"
+            class="img_content"
+            src="https://i.pinimg.com/564x/15/9a/60/159a6068f80413c5ee9bbe9e27ca2907.jpg"
+          />
+          <div class="text_content">ดอกไม้ที่ชอบ</div>
+          <div>ชื่อ Iris</div>
+          <div style="border-style: none; padding: 10px; max-width: 800px;">
+            รายละเอียด: ดอกไม้ที่งดงามและเต็มเปี่ยมด้วยความหมายมากมาย
+            ดอกไอริสแบ่งออกเป็น 3 กลีบ แต่ละกลีบหมายถึงความศรัทธา ปัญญา
+            และความกล้าหาญ ในสมัยโรมันโบราณถูกใช้สำหรับการล้างบาป
+            แต่ในปัจจุบันดอกไอริสมีความหมายถึงความศรัทธาเลื่อมใส และความคาดหวัง
+            การให้ดอกไอริสสื่อความหมายว่า
+            คุณยังคงเชื่อมั่นและศรัทธาในคนรักของคุณเสมอ นอกจากนี้
+            ดอกไอริสแต่ละสียังมีความหมายต่าง ๆ อีก เช่น
+            สีน้ำเงินสื่อถึงความศรัทธาเลื่อมใสและความคาดหวัง
+            สีม่วงสื่อถึงการชมเชยสรรเสริญหรือความฉลาด สีขาวสื่อถึงความบริสุทธิ์
+            สีเหลืองสื่อถึงอารมณ์ความรู้สึกและความชอบ เป็นต้น
+          </div>
+        </div>
+        <div class="box_content">
+          <img
+            style="width: 300px; height: 300px"
+            class="img_content"
+            src="https://i.pinimg.com/564x/a4/d4/96/a4d4966951fcdd60d15e8c93178da2b7.jpg"
+          />
+          <div class="text_content">สัตว์เลี้ยงที่ชอบ</div>
+          <div>ชื่อ paimon</div>
+          <div>รายละเอียด: เป็นคู่หู(อาหารฉุกเฉิน)ภายในเกม genshin impact</div>
+        </div>
+      </div>
+    </center>
+    </div>
+    <footer class="text-center p-5 " style="background-color: #FDD8CF;">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>Copyright &copy; นาย จิรายุส มณีจันสุข 64122250053</p>
+            <p>รหัส 64122250053</p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--ช่องทางติดต่อ-->>
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">ติดต่อฉัน</h5>
+            <button class="btn-close" data-bs-dismiss="modal">.</button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label>อีเมล</label>
+                <input
+                  type="email"
+                  placeholder="ป้อนอีเมลของคุณ"
+                  class="form-control"
+                />
+              </div>
+              <div class="form-group">
+                <label>หัวข้อ</label>
+                <input
+                  type="text"
+                  placeholder="เสนอหัวข้องานของคุณ"
+                  class="form-control"
+                />
+              </div>
+              <div class="form-group">
+                <label>รายละเอียด</label>
+                <textarea
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="form-control"
+                ></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" data-bs-dismiss="modal">
+              ยกเลิก
+            </button>
+            <button class="btn btn-success">ส่งข้อมูล</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
